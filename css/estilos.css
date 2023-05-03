@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+.gif-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container{
+    position: relative;
+    z-index: 99;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    background-position: center;
+}
+
+.caja1{
+    height: 33.3rem;
+    background-color: rgba(34, 19, 41, 0.801);
+    
+  
+}
+
+.caja2{
+    background-color: rgba(2, 2, 0, 0.788);
+    background-image: url(../images/1683052030150.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.subcontainer1{
+    margin: 5px;
+}
+
+.subcontainer2{
+    margin: 5px;
+}
+
+.subcontainer3{
+    margin: 5px;
+}
+
+.subcontainer4{
+    margin: 5px;
+}
+
+.cajaA{
+    background-color: rgba(34, 19, 41, 0.932);
+    height: 5rem;
+    margin: 2px;
+    background-image: url(../images/df4107edd8b4fe79455810ea6222e087.gif);
+    background-size: cover;
+    background-position:bottom;
+}
+
+.btn-success{
+    background-color: #ffd90f;
+}
+
+.color4{
+    background-color: 54338A;
+}
+
+.carrousel{
+    background-color: aquamarine;
+}
+
+.progress{
+    background-color: rgba(114, 63, 161, 0.425);
+    margin: 5%;
+}
+
+.text{
+    font-size: 153%;
+    text-align: center;
+    justify-content:left;
+    text-decoration:dashed;
+}
+
+
+.cajafoto1{
+    height: 33.3rem;
+    background-color: rgba(62, 19, 87, 0.562);
+    background-size: cover;
+    background-image: url(../images/elñeroquelegustaajuancascallon.jpg);
+    background-position:center;
+    animation: 4.5s cubic-bezier(.25, 1, .30, 1) square-in-center both infinite;
+
+}
+
+.cajafoto2{
+    height: 33.3rem;
+    background-color: rgba(62, 19, 87, 0.562);
+    background-size: cover;
+    background-image: url(../images/jojozine.jpg);
+    background-position: center;
+    animation: 4.5s cubic-bezier(.25, 1, .30, 1) square-in-center both infinite ;
+    
+
+}
+
+.cajafoto3{
+    height: 33.3rem;
+    background-color: rgba(62, 19, 87, 0.562);
+    background-image: url(../images/logojuancascallon.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: 4.5s cubic-bezier(.25, 1, .30, 1) square-in-center both infinite ;
+
+}
+
+.caja21{
+    background-color: rgba(62, 19, 87, 0.562);
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/juanputas.jpg);
+    animation: 4.5s cubic-bezier(.25, 1, .30, 1) square-in-center both infinite;
+}
+
+@keyframes square-in-center {
+    from {
+      clip-path: inset(100% 100% 100% 100%);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:square:center"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) square-in-center both infinite;
+  }
+
+  .caja8{
+    background-color: rgba(2, 2, 0, 0.788);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cajafoot{
+    background-color: rgba(253, 254, 255, 0.432);
+}
+
+.icon-container{
+    margin-right: 12px;
+}
